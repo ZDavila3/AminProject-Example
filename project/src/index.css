@@ -1,1 +1,9 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* nicer font defaults */
+@layer base {
+  html { font-family: ui-sans-serif, system-ui, -apple-system, "Inter", "Segoe UI", Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+}
